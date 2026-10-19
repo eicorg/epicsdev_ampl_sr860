@@ -1,0 +1,24 @@
+[project]
+name = "epicsdev-ampl-sr860"
+version = "0.1.0"
+description = "EPICS PVAccess server for SR860 lock-in amplifier"
+readme = "README.md"
+authors = [
+    { name = "Sukhanov, Andrei", email = "sukhanov@bnl.gov" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "epicsdev>=3.3.3",
+    "pyvisa>=1.14",
+]
+
+[project.scripts]
+epicsdev-ampl-sr860 = "epicsdev_ampl_sr860:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
+
+[project.urls]
+"Homepage" = "https://github.com/eicorg/epicsdev_ampl_sr860"
+"Bug Tracker" = "https://github.com/eicorg/epicsdev_ampl_sr860"

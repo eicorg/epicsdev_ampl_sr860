@@ -1,6 +1,6 @@
 """EPICS PVAccess server for the SR860 lock-in amplifier."""
 # pylint: disable=invalid-name
-__version__ = 'v0.1.0 2026-10-15'
+__version__ = 'v0.0.1 2026-10-15'
 
 import argparse
 import sys

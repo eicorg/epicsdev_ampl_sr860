@@ -1,6 +1,6 @@
 [project]
 name = "epicsdev-ampl-sr860"
-version = "0.1.0"
+version = "0.0.1"
 description = "EPICS PVAccess server for SR860 lock-in amplifier"
 readme = "README.md"
 authors = [
